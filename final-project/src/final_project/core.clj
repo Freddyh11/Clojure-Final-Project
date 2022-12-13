@@ -2,15 +2,15 @@
   (:require [clojure.set :as set]))
 
 (def board1 
-  '[3 - - - - 5 - 1 -
-    - 7 - - - 6 - 3 -
-    1 - - - 9 - - - -
-    7 - 8 - - - - 9 -
-    9 - - 4 - 8 - - 2
-    - 6 - - - - 5 - 1
-    - - - 4 - - - - 6
-    - 4 - 7 - - - 2 -
-    - 2 - 6 - - - - 3])
+  '[- - 4 - - 3 - - 1
+    8 - - 9 - 5 - - -
+    - - - - - - - - -
+    - 7 - - 4 - 5 - -
+    - - - 8 - - - 6 -
+    9 - - 2 - - - 3 -
+    - 1 2 - - - - - 7
+    - 4 - - - - 8 - -
+    - 5 - 7 - - - 9 2])
 ;;^will be my board
 
 (defn build_board [board] ;;function build_board will take in arg 'board'
