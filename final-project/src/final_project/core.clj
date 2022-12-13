@@ -1,3 +1,23 @@
+
+
+;FLOWCHART FOR MY SUDOKU SOLVER
+
+;Define the function build_board which takes a single argument board.
+;Use map to call partition on board, which splits board into smaller sequences.
+;Define the function print_board which takes a board as an argument.
+;Use let to define row_separator as a string of 37 dashes.
+;Use println and dotimes to print each row of the board.
+;Use doseq to print each cell of the row.
+;Use mod and when to insert a separator between sub-grids of the board.
+;Define the function index which takes a single argument collection.
+;Use cond to check the type of collection and return a sequence based on the type.
+;Define the functions rows, row_for, column_for, and subgrid_for which extract rows, columns, and subgrids of the Sudoku board.
+;Define the function numbers_present_for which returns the set of numbers present in a row, column, or subgrid of the board.
+;Define the function possible_placements which takes a board and an index and returns the set of numbers that can be placed at that index on the board.
+
+;*********************************************************************************************************************************************
+
+
 (ns final-project.core
   (:require [clojure.set :as set]))
 
